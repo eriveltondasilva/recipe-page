@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+:root {
+  /* colors */
+  --white: hsl(0, 0%, 100%);
+
+  --stone-100: hsl(30, 54%, 90%);
+  --stone-150: hsl(30, 18%, 87%);
+  --stone-600: hsl(30, 10%, 34%);
+  --stone-900: hsl(24, 5%, 18%);
+
+  --brown-800: hsl(14, 45%, 36%);
+
+  --rose-800: hsl(332, 51%, 32%);
+  --rose-50: hsl(330, 100%, 98%);
+
+  /* screen */
+  --mobile: 375px;
+  --desktop: 1440px;
+
+  /* ty */
+  --font-primary: 'Outfit';
+  --font-secondary: 'Young Serif';
+
+  /* */
+  font-family: var(--font-primary), Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: hsla(0, 0%, 100%, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+.young-serif-regular {
+  font-family: 'Young Serif', serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.outfit-regular {
+  font-family: 'Outfit', serif;
+  font-optical-sizing: auto;
+  font-weight: 400; /* 400, 600, 700 */
+  font-style: normal;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+}
