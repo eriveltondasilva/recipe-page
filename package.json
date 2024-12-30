@@ -1,7 +1,22 @@
 {
   "name": "recipe-page",
+  "description": "Frontend Mentor - Recipe page",
+  "homepage": "exemple.com.br",
+  "author": "Erivelton Silva <eriveltondasilva13@gmail.com> (https://github.com/eriveltondasilva)",
+  "contributors": [
+    {"name": "Name <email> (github)"},
+    {"name": "Name <email> (github)"}
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eriveltondasilva/recipe-page.git"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "license": "MIT",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
